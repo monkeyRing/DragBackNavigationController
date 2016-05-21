@@ -9,3 +9,6 @@
 效果图：
   * ![效果图1](https://github.com/MonkeyRing/DragBackNavigationController/blob/master/images/page2.gif)
   * ![效果图2](https://github.com/MonkeyRing/DragBackNavigationController/blob/master/images/page1.gif)
+
+####使用方法:
+很简单，就和平时给控制器添加NavigationController一样。支持StoryBoard中拖拽一个导航控制器直接将类设置为`HLNaviViewController`即可
