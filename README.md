@@ -4,3 +4,8 @@
 > 两种效果
 * 1. 类似美团外卖的侧滑返回效果。
 * 2. 类似于雪球、简书的侧滑返回效果
+
+
+效果图：
+  * ![效果图1](https://github.com/MonkeyRing/DragBackNavigationController/blob/master/images/page2.gif)
+  * ![效果图2](https://github.com/MonkeyRing/DragBackNavigationController/blob/master/images/page1.gif)
