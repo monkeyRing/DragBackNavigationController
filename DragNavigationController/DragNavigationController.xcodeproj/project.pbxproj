@@ -14,7 +14,7 @@
 		A04EC9D01CF093B90035EAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04EC9CE1CF093B90035EAC9 /* LaunchScreen.storyboard */; };
 		A04EC9DB1CF093B90035EAC9 /* DragNavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC9DA1CF093B90035EAC9 /* DragNavigationControllerTests.swift */; };
 		A04EC9E61CF093B90035EAC9 /* DragNavigationControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC9E51CF093B90035EAC9 /* DragNavigationControllerUITests.swift */; };
-		A04EC9F41CF093C10035EAC9 /* HLNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC9F31CF093C10035EAC9 /* HLNaviViewController.swift */; };
+		A04EC9F41CF093C10035EAC9 /* HLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC9F31CF093C10035EAC9 /* HLNavigationController.swift */; };
 		A04EC9F61CF094660035EAC9 /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC9F51CF094660035EAC9 /* AViewController.swift */; };
 		A04EC9F81CF094840035EAC9 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04EC9F71CF094840035EAC9 /* BViewController.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		A04EC9E11CF093B90035EAC9 /* DragNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04EC9E51CF093B90035EAC9 /* DragNavigationControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragNavigationControllerUITests.swift; sourceTree = "<group>"; };
 		A04EC9E71CF093B90035EAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A04EC9F31CF093C10035EAC9 /* HLNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLNaviViewController.swift; sourceTree = "<group>"; };
+		A04EC9F31CF093C10035EAC9 /* HLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HLNavigationController.swift; sourceTree = "<group>"; };
 		A04EC9F51CF094660035EAC9 /* AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		A04EC9F71CF094840035EAC9 /* BViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,7 @@
 		A04EC9C41CF093B90035EAC9 /* DragNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				A04EC9F31CF093C10035EAC9 /* HLNaviViewController.swift */,
+				A04EC9F31CF093C10035EAC9 /* HLNavigationController.swift */,
 				A04EC9C51CF093B90035EAC9 /* AppDelegate.swift */,
 				A04EC9C71CF093B90035EAC9 /* ViewController.swift */,
 				A04EC9C91CF093B90035EAC9 /* Main.storyboard */,
@@ -203,15 +203,18 @@
 					A04EC9C11CF093B90035EAC9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = LQDVA2Q2C9;
+						LastSwiftMigration = 0820;
 					};
 					A04EC9D51CF093B90035EAC9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = LQDVA2Q2C9;
+						LastSwiftMigration = 0820;
 						TestTargetID = A04EC9C11CF093B90035EAC9;
 					};
 					A04EC9E01CF093B90035EAC9 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = LQDVA2Q2C9;
+						LastSwiftMigration = 0820;
 						TestTargetID = A04EC9C11CF093B90035EAC9;
 					};
 				};
@@ -270,7 +273,7 @@
 			files = (
 				A04EC9F61CF094660035EAC9 /* AViewController.swift in Sources */,
 				A04EC9C81CF093B90035EAC9 /* ViewController.swift in Sources */,
-				A04EC9F41CF093C10035EAC9 /* HLNaviViewController.swift in Sources */,
+				A04EC9F41CF093C10035EAC9 /* HLNavigationController.swift in Sources */,
 				A04EC9F81CF094840035EAC9 /* BViewController.swift in Sources */,
 				A04EC9C61CF093B90035EAC9 /* AppDelegate.swift in Sources */,
 			);
@@ -420,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.DragNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -431,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.DragNavigationController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -442,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.DragNavigationControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragNavigationController.app/DragNavigationController";
 			};
 			name = Debug;
@@ -454,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.DragNavigationControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragNavigationController.app/DragNavigationController";
 			};
 			name = Release;
@@ -465,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.DragNavigationControllerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DragNavigationController;
 			};
 			name = Debug;
@@ -476,6 +484,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = personal.DragNavigationControllerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DragNavigationController;
 			};
 			name = Release;
@@ -499,6 +508,7 @@
 				A04EC9EC1CF093B90035EAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A04EC9ED1CF093B90035EAC9 /* Build configuration list for PBXNativeTarget "DragNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +517,7 @@
 				A04EC9EF1CF093B90035EAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A04EC9F01CF093B90035EAC9 /* Build configuration list for PBXNativeTarget "DragNavigationControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				A04EC9F21CF093B90035EAC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
